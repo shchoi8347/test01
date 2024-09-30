@@ -1,0 +1,23 @@
+1. node.js 프로젝트를 로컬에 만들기
+- node.js 설치
+- 테스트를 위한 폴더 만들기(예: gitActionTest01)
+- 이 폴더를 vscode로 열기
+- vscode에서 터미널 열기
+- npm init 실행
+- package.json 편집
+- src/index.js 생성하기
+- test/index.test.js 생성하기
+
+2. 깃허브에 퍼블리시하기
+- vscode 터미널에서 아래 명령어 실행
+  $ git config --global user.name "Your Name"
+  $ git config --global user.email you@example.com
+  $ git init
+- .gitignore 파일 생성하기
+- vscode 왼쪽에서 'source code control' 아이콘 클릭
+- commit 및 publish 실행
+
+3. 깃액션 만들기
+
+
+4. vscode에서 깃허브로 pull request 또는 push 하기
