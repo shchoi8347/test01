@@ -8,16 +8,31 @@
 - src/index.js 생성하기
 - test/index.test.js 생성하기
 
-2. 깃허브에 퍼블리시하기
+2. vscode에서 테스트하기
+- 터미널에서 아래 명령어 실행하기
+  $ npm install
+  $ npm test
+
+
+3. 깃허브에 퍼블리시하기
 - vscode 터미널에서 아래 명령어 실행
   $ git config --global user.name "Your Name"
   $ git config --global user.email you@example.com
-  $ git init
 - .gitignore 파일 생성하기
+- vscode 터미널에서 아래 명령어 실행
+  $ git init
 - vscode 왼쪽에서 'source code control' 아이콘 클릭
 - commit 및 publish 실행
 
-3. 깃액션 만들기
+4. 깃액션 만들기
+- 깃허브 > Actions 메뉴 클릭
+- Continuous Integration > Node.js 템플릿 > Configure 버튼 클릭
+- 파일 이름 변경: ci.yml
+- 파일 내용 작성
+- 우측 상단 'Commit changes...' 버튼 클릭
+- 커밋 메시지 작성 > 'Commit changes' 버튼 클릭
+- .github/workflows 폴더에 ci.yml 이 생김
+- Actions 메뉴 클릭 > ci.yml 클릭해서 workflow 동작 확인하기
 
-
-4. vscode에서 깃허브로 pull request 또는 push 하기
+5. vscode에서 깃허브로 pull request 또는 push 하기
+<= 여기서 부터 작성할 것
