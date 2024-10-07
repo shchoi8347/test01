@@ -1,4 +1,5 @@
 // computes a factorial of a given positive integer
+// branch: login
 function factorial(n) {
 
     if( n < 0 ) {
