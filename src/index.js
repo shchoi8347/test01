@@ -1,4 +1,5 @@
 // computes a factorial of a given positive integer
+// branch: break-tests
 function factorial(n) {
 
     if( n < 0 ) {
